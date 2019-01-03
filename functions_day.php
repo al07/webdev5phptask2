@@ -12,14 +12,35 @@
 		<?php 
 function day_of_the_week($name, $day_id) {
 	$message = "Здравствуйте, $name! ";
-	if ($day_id < 6) {
-		$message .= "Хорошего Вам продуктивного дня!";
-	} else {
-		$message .= "Хорошо Вам отдохнуть";
+	switch ($day_id) {
+		case 1:
+			$message .= "Хорошего Вам продуктивного дня!";
+			break;
+		case 2:
+			$message .= "Хорошего Вам продуктивного дня!";
+			break;
+		case 3:
+			$message .= "Хорошего Вам продуктивного дня!";
+			break;
+		case $day_id < 6:
+			$message .= "Хорошего Вам продуктивного дня!";
+			break;
+		case 5:
+			$message .= "Хорошего Вам продуктивного дня!";
+			break;
+		case 6:
+			$message .= "Хорошего Вам продуктивного дня!";
+			break;
+		case 7:
+			$message .= "Хорошо Вам отдохнуть";
+			break;
+		default:
+			$message .= "Странный порядковый номер дня";
+			break;
 	}
 	echo $message;
 }
-day_of_the_week("Саша", 3);
+day_of_the_week("Саша", 7);
 		?>
 		</div>
 	</div>

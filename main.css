@@ -24,3 +24,35 @@
 	font-size: 15px;
 	font-weight: 600;
 }
+.form_block input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 300px;
+	padding-left: 10px;
+	-webkit-border-radius: 20px;
+	        border-radius: 20px;
+	height: 30px;
+}
+.form_block textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 300px;
+	padding: 10px;
+	
+	-webkit-border-radius: 20px;
+	        border-radius: 20px;
+}
+.res_message {
+	background-color: #090;
+	padding: 30px;
+	color: #FFF;
+}
+.bad_news {
+	color: red;
+	background-color: #000;
+	
+}
