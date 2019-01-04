@@ -22,7 +22,7 @@ function day_of_the_week($name, $day_id) {
 		case 3:
 			$message .= "Хорошего Вам продуктивного дня!";
 			break;
-		case $day_id < 6:
+		case 4:
 			$message .= "Хорошего Вам продуктивного дня!";
 			break;
 		case 5:
